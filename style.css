@@ -2063,7 +2063,7 @@ ul {
   padding: 10px 0;
 }
 .header-main-menu .navbar-nav .header-admin .dropdown-menu .item-content .settings-list li a {
-  color: #646464;
+  color: #fff;
   font-size: 15px;
   display: block;
   padding: 8px 25px;
@@ -2078,7 +2078,7 @@ ul {
   margin-right: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #444444;
+  color: #fff;
 }
 .header-main-menu .navbar-nav .header-admin .dropdown-menu .item-content .settings-list li a:hover {
   background-color: #f6f6f6;
@@ -2096,7 +2096,7 @@ ul {
 .sidebar-menu-one .sidebar-menu-content {
   border: none;
   border-radius: 0;
-  background-color: transparent;
+  background-color: #1abbe4;
   padding-bottom: 3rem;
   position: fixed;
   top: 68px;
@@ -2111,7 +2111,8 @@ ul {
   flex-direction: column;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item {
-  border-bottom: 1px solid #021933;
+  border-bottom: 1px solid #1abbe4;
+  background: #1abbe4;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item > .nav-link {
   position: relative;
@@ -2125,7 +2126,7 @@ ul {
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item > .nav-link span {
   font-size: 15px;
-  color: #9ea8b5;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -2133,19 +2134,19 @@ ul {
   transition: all 0.3s ease-out;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .nav-link.menu-active {
-  background-color: #10ECEF;
+  background-color: #1abbe4;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .nav-link.menu-active span {
   color: #800000;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu {
   display: none;
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   padding: 10px 0;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link {
   font-size: 14px;
-  color: #a3aab3;
+  color: #fff;
   padding: 8px 20px 8px 60px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2155,11 +2156,11 @@ ul {
   margin-right: 10px;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link:hover {
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   color: #ffffff;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link.menu-active {
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   color: #800000;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu.sub-group-active {
@@ -2170,7 +2171,7 @@ ul {
   font-family: Flaticon;
   font-size: 10px;
   font-weight: 700;
-  color: #b0b8c2;
+  color: #fff;
   position: absolute;
   right: 22px;
   top: 50%;
@@ -2205,7 +2206,7 @@ ul {
   top: 0;
   bottom: 0;
   width: 18rem;
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   box-sizing: content-box;
   z-index: 10;
   -webkit-transition: all 0.3s ease-out;
@@ -2223,7 +2224,7 @@ ul {
   flex-direction: column;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item {
-  border-bottom: 1px solid #021933;
+  border-bottom: 1px solid #1abbe4;
   position: relative;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item > .nav-link {
@@ -2239,15 +2240,15 @@ ul {
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item > .nav-link span {
   display: block;
   font-size: 14px;
-  color: #9ea8b5;
+  color: #fff;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu {
   width: 26rem;
   display: none;
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   padding: 12px 0;
   border-radius: 0px 4px 4px 0px;
-  border-left: .4px solid #f0f1f3;
+  border-left: .4px solid #1abbe4;
   position: absolute;
   top: 0;
   right: -26rem;
@@ -2260,7 +2261,7 @@ ul {
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link {
   font-size: 14px;
-  color: #a3aab3;
+  color: #fff;
   padding: 10px 25px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2270,11 +2271,11 @@ ul {
   margin-right: 10px;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link:hover {
-  background-color: #10ECEF;
+  background-color: #1abbe4;
   color: #ffffff;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item:hover {
-  background-color: #10ECEF;
+  background-color: #1abbe4;
 }
 .sidebar-menu-two .sidebar-menu-content .nav-sidebar-menu > .nav-item:hover > .nav-link i:before {
   color: #800000;
@@ -2364,7 +2365,7 @@ ul {
   left: 8rem;
   visibility: hidden;
   opacity: 0;
-  border-left: 0.4px solid #cccccc;
+  border-left: 0.4px solid #1abbe4;
   padding-left: 2px;
   z-index: 100;
 }
@@ -3351,7 +3352,7 @@ ul {
 }
 /*=============== 6.6 Login Page ==================*/
 .login-page-wrap {
-  background-image: url('img/figure/login-bg.jpg');
+  background-color: #1abbe4;
   background-repeat: no-repeat;
   background-position: top;
   position: fixed;
@@ -3386,10 +3387,14 @@ ul {
   min-width: 470px;
   padding: 6rem 7rem;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: #800000;
   -webkit-box-shadow: 0px 5px 49px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 49px 0px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
 }
 @media only screen and (max-width: 575px) {
   .login-page-content .login-box {
@@ -3413,7 +3418,7 @@ ul {
 .login-page-content .login-box .login-form .form-group > label {
   font-size: 15px;
   font-weight: 500;
-  color: #444444;
+  color: #fff;
   margin-bottom: 10px;
 }
 .login-page-content .login-box .login-form .form-group .form-control {
@@ -3423,6 +3428,7 @@ ul {
 }
 .login-page-content .login-box .login-form .form-group > input {
   height: 50px;
+  color: #fff;
 }
 .login-page-content .login-box .login-form .form-group i {
   position: absolute;
@@ -3451,7 +3457,7 @@ ul {
   font-size: 14px;
   padding-left: 30px;
   font-weight: 500;
-  color: #444444;
+  color: #fff;
 }
 .login-page-content .login-box .login-form .form-group .form-check .form-check-label:before {
   top: 1px;
@@ -3461,7 +3467,7 @@ ul {
 }
 .login-page-content .login-box .login-form .form-group .forgot-btn {
   font-size: 14px;
-  color: #ff0000;
+  color: #1abbe4;
   font-weight: 500;
 }
 .login-page-content .login-box .login-form .form-group .login-btn {

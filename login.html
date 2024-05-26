@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include 'PHP/connection.php';
 
 if(isset($_POST["submit"])) {
@@ -15,7 +15,7 @@ if(isset($_POST["submit"])) {
     
     
 }
-?>
+?> -->
 
 
 <!doctype html>
@@ -57,9 +57,9 @@ if(isset($_POST["submit"])) {
         <div class="login-page-content">
             <div class="login-box">
                 <div class="item-logo">
-                    <img src="img/Samge Logo1.png.png" alt="logo">
+                    <img width="180px" src="img/logo.png" alt="logo">
                 </div>
-                <form class="login-form" method="post">
+                <form class="login-form" method="post" action="index.htm">
                     <div class="form-group">
                         <label>Username</label>
                         <input type="text" name="name" placeholder="Enter usrename" class="form-control">
@@ -67,7 +67,7 @@ if(isset($_POST["submit"])) {
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="text" name="password" placeholder="Enter password" class="form-control">
+                        <input type="password" name="password" placeholder="Enter password" class="form-control">
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="form-group d-flex align-items-center justify-content-between">
@@ -78,11 +78,11 @@ if(isset($_POST["submit"])) {
                         <a href="#" class="forgot-btn">Forgot Password?</a>
                     </div>
                     <div class="form-group">
-                        <button type="submit" name="submit" class="login-btn">Login</button>
+                        <a href="index.htm" style="text-decoration: none;color: #fff;" class="login-btn">Login</a>
                     </div>
                 </form>
                 <div class="login-social">
-                    <p>or sign in with</p>
+                    <p style="color: #fff;">or sign in with</p>
                     <ul>
                         <li><a href="#" class="bg-fb"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#" class="bg-twitter"><i class="fab fa-twitter"></i></a></li>

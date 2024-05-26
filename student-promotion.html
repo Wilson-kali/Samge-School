@@ -231,7 +231,7 @@
            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
                <div class="mobile-sidebar-header d-md-none">
                     <div class="header-logo">
-                        <a href="index.html"><img src="" alt="logo"></a>
+                        <a href="index.htm"><img src="" alt="logo"></a>
                     </div>
                </div>
                 <div class="sidebar-menu-content">
@@ -240,16 +240,16 @@
                             <a href="#" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
                             <ul class="nav sub-group-menu">
                                 <li class="nav-item">
-                                    <a href="index.html" class="nav-link"><i class="fas fa-angle-right"></i>Admin</a>
+                                    <a href="index.htm" class="nav-link"><i class="fas fa-angle-right"></i>Admin</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="index3.html" class="nav-link"><i class="fas fa-angle-right"></i>Students</a>
+                                    <a href="index.htm" class="nav-link"><i class="fas fa-angle-right"></i>Students</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="index4.html" class="nav-link"><i class="fas fa-angle-right"></i>Parents</a>
+                                    <a href="index.htm" class="nav-link"><i class="fas fa-angle-right"></i>Parents</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="index5.html" class="nav-link"><i class="fas fa-angle-right"></i>Teachers</a>
+                                    <a href="index.htm" class="nav-link"><i class="fas fa-angle-right"></i>Teachers</a>
                                 </li>
                             </ul>
                         </li>
@@ -266,7 +266,7 @@
                                     <a href="admit-form.html" class="nav-link"><i class="fas fa-angle-right"></i>Admission Form</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="student-promotion.html" class="nav-link"><i class="fas fa-angle-right"></i>Student Promotion</a>
+                                    <a href="student-promotion.html" class="nav-link"><i class="fas fa-angle-right"></i>Student Food Record</a>
                                 </li>
                             </ul>
                         </li>
@@ -346,17 +346,17 @@
                         <li class="nav-item">
                             <a href="student-attendence.html" class="nav-link"><i class="flaticon-checklist"></i><span>Attendence</span></a>
                         </li> -->
-                        <li class="nav-item sidebar-nav-item">
+                        <!-- <li class="nav-item sidebar-nav-item">
                             <a href="#" class="nav-link"><i class="flaticon-shopping-list"></i><span>Exam</span></a>
-                            <ul class="nav sub-group-menu">
+                            <ul class="nav sub-group-menu"> -->
                                 <!-- <li class="nav-item">
                                     <a href="exam-schedule.html" class="nav-link"><i class="fas fa-angle-right"></i>Exam Schedule</a>
                                 </li> -->
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="exam-grade.html" class="nav-link"><i class="fas fa-angle-right"></i>Exam Grades</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a href="transport.html" class="nav-link"><i class="flaticon-bus-side-view"></i><span>Transport</span></a>
                         </li>
@@ -412,88 +412,65 @@
                     <h3>Students</h3>
                     <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.htm">Home</a>
                         </li>
-                        <li>Student Promotion</li>
+                        <li>Student food record</li>
                     </ul>
                 </div>
                 <!-- Breadcubs Area End Here -->
                 <!-- Student Promotion Area Start Here -->
-                <div class="card height-auto">
-                    <div class="card-body">
-                        <div class="heading-layout1">
-                            <div class="item-title">
-                                <h3>Search Student Promotion</h3>
-                            </div>
-                           <div class="dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" 
-                                data-toggle="dropdown" aria-expanded="false">...</a>
-        
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                <div class="col-4-xxxl col-12">
+                    <div class="card height-auto">
+                        <div class="card-body">
+                            <div class="heading-layout1">
+                                <div class="item-title">
+                                    <h3>Add Food Detail</h3>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                        aria-expanded="false">...</a>
+
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                    </div>
                                 </div>
                             </div>
+                            <form class="new-added-form">
+                                <div class="row">
+                                    <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
+                                        <label>Name of student</label>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
+                                        <label>Admission No</label>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
+                                        <label>Maize Quantity</label>
+                                        <input type="text" placeholder="In Kg's" class="form-control">
+                                    </div>
+                                    <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
+                                        <label>Beans Quantity</label>
+                                        <input type="text" placeholder="In Kg's" class="form-control">
+                                    </div>
+                                    <div class="col-12 form-group mg-t-8">
+                                        <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
+                                        <button type="reset" class="btn-fill-lg bg-blue-dark btn-hover-yellow">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <form class="new-added-form">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                    <label>Current Session *</label>
-                                    <select class="select2">
-                                        <option value="">2017-2018</option>
-                                        <option value="1">2018-2019</option>
-                                        <option value="2">2015-2016</option>
-                                        <option value="3">2014-2015</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                    <label>Promote Session *</label>
-                                    <select class="select2">
-                                        <option value="">2017-2018</option>
-                                        <option value="1">2018-2019</option>
-                                        <option value="2">2015-2016</option>
-                                        <option value="3">2014-2015</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                    <label>Promotion From Class *</label>
-                                    <select class="select2">
-                                        <option value="">Please Select *</option>
-                                        <option value="1">Play</option>
-                                        <option value="2">Nursery</option>
-                                        <option value="3">One</option>
-                                        <option value="3">Two</option>
-                                        <option value="3">Three</option>
-                                        <option value="3">Four</option>
-                                        <option value="3">Five</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                    <label>Promotion To Class *</label>
-                                    <select class="select2">
-                                        <option value="">Please Select *</option>
-                                        <option value="1">Play</option>
-                                        <option value="2">Nursery</option>
-                                        <option value="3">One</option>
-                                        <option value="3">Two</option>
-                                        <option value="3">Three</option>
-                                        <option value="3">Four</option>
-                                        <option value="3">Five</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 form-group mg-t-8">
-                                    <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
-                                    <button type="reset" class="btn-fill-lg bg-blue-dark btn-hover-yellow">Reset</button>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
                 <!-- Student Promotion Area End Here -->
-                <footer class="footer-wrap-layout1">
+                <!-- <footer class="footer-wrap-layout1">
                     <div class="copyright">© Copyrights <a href="#">akkhor</a> 2019. All rights reserved. Designed by <a href="#">PsdBosS</a></div>
-                </footer>
+                </footer> -->
             </div>
         </div>
         <!-- Page Area End Here -->
